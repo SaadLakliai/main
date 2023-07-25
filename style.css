@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(90deg, red, orange);
+    width: 100%;
+    height: 200vh;
+    display: grid;
+    place-items: center;
+}
+
+.container.wrapper {
+    width: 90%;
+    height: 180vh;
+    border-radius: 20px;
+    background: rgb(255, 255, 255, .6);
+    text-align: center
+}
+
+.about {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 70%;
+    height: 40vh;
+    padding: .5rem;
+    text-align: left;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hide {
+    display: none;
+}
